@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Primary" verbose="10">
+<groups>
+<run>
+<include name="smoke"></include>
+</run>
+</groups>
+  <test name="Secondary" parallel="classes">
+    <classes>
+      <class name="testcase.EditLead"/>
+      <class name="testcase.CreateLead"/>
+    </classes>
+  </test> <!-- Secondary -->
+</suite> <!-- Primary -->
