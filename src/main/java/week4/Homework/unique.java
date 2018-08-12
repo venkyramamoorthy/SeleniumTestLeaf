@@ -1,7 +1,7 @@
 package week4.Homework;
 import java.util.Scanner;
 
-import org.apache.commons.lang.ArrayUtils;
+//import org.apache.commons.lang.ArrayUtils;
 
 public class unique {
 	private static Scanner sc;
@@ -36,7 +36,7 @@ public class unique {
             }
         }
 		//print sorted Array
-		System.out.println(ArrayUtils.toString(a));
+		//System.out.println(ArrayUtils.toString(a));
 		//Print array without duplicates
 		System.out.print(a[0]);
 		for (int i = 1; i < index; i++) {
