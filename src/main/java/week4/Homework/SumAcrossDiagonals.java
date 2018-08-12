@@ -2,7 +2,7 @@ package week4.Homework;
 
 import java.util.Scanner;
 
-import org.apache.commons.lang.ArrayUtils;
+//import org.apache.commons.lang.ArrayUtils;
 
 public class SumAcrossDiagonals {
 
@@ -53,9 +53,9 @@ public class SumAcrossDiagonals {
 		System.out.println("sum of lower half:"+lowerDiagSum);
 		System.out.print("half which is greater is ");
 		if(upperDiagSum>lowerDiagSum){
-			System.out.print(ArrayUtils.toString(upperDiag));
+			//System.out.print(ArrayUtils.toString(upperDiag));
 		}else{
-			System.out.print(ArrayUtils.toString(lowerDiag));
+			//System.out.print(ArrayUtils.toString(lowerDiag));
 		}
 	}
 }
